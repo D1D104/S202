@@ -1,0 +1,100 @@
+[
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa5a"
+        },
+        "name": "Ivysaur",
+        "candy_count": 100
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa5d"
+        },
+        "name": "Charmeleon",
+        "candy_count": 100
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa60"
+        },
+        "name": "Wartortle",
+        "candy_count": 100
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa76"
+        },
+        "name": "Nidorina",
+        "candy_count": 100
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa79"
+        },
+        "name": "Nidorino",
+        "candy_count": 100
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa84"
+        },
+        "name": "Gloom",
+        "candy_count": 100
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa95"
+        },
+        "name": "Poliwhirl",
+        "candy_count": 100
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa98"
+        },
+        "name": "Kadabra",
+        "candy_count": 100
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa9b"
+        },
+        "name": "Machoke",
+        "candy_count": 100
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa9e"
+        },
+        "name": "Weepinbell",
+        "candy_count": 100
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faa3"
+        },
+        "name": "Graveler",
+        "candy_count": 100
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fab5"
+        },
+        "name": "Haunter",
+        "candy_count": 100
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fad9"
+        },
+        "name": "Magikarp",
+        "candy_count": 400
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faec"
+        },
+        "name": "Dragonair",
+        "candy_count": 100
+    }
+]

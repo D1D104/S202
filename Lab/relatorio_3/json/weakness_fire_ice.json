@@ -1,0 +1,207 @@
+[
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa59"
+        },
+        "name": "Bulbasaur",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa5a"
+        },
+        "name": "Ivysaur",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa5b"
+        },
+        "name": "Venusaur",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa64"
+        },
+        "name": "Butterfree",
+        "weaknesses": [
+            "Fire",
+            "Electric",
+            "Ice",
+            "Flying",
+            "Rock"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa83"
+        },
+        "name": "Oddish",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa84"
+        },
+        "name": "Gloom",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa85"
+        },
+        "name": "Vileplume",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa86"
+        },
+        "name": "Paras",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Poison",
+            "Flying",
+            "Bug",
+            "Rock"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa87"
+        },
+        "name": "Parasect",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Poison",
+            "Flying",
+            "Bug",
+            "Rock"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa9d"
+        },
+        "name": "Bellsprout",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa9e"
+        },
+        "name": "Weepinbell",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa9f"
+        },
+        "name": "Victreebel",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Flying",
+            "Psychic"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fabe"
+        },
+        "name": "Exeggcute",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Poison",
+            "Flying",
+            "Bug",
+            "Ghost",
+            "Dark"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fabf"
+        },
+        "name": "Exeggutor",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Poison",
+            "Flying",
+            "Bug",
+            "Ghost",
+            "Dark"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faca"
+        },
+        "name": "Tangela",
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Poison",
+            "Flying",
+            "Bug"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fad3"
+        },
+        "name": "Scyther",
+        "weaknesses": [
+            "Fire",
+            "Electric",
+            "Ice",
+            "Flying",
+            "Rock"
+        ]
+    }
+]

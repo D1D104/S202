@@ -1,0 +1,278 @@
+[
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa59"
+        },
+        "name": "Bulbasaur",
+        "next_evolution": [
+            {
+                "num": "002",
+                "name": "Ivysaur"
+            },
+            {
+                "num": "003",
+                "name": "Venusaur"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa5c"
+        },
+        "name": "Charmander",
+        "next_evolution": [
+            {
+                "num": "005",
+                "name": "Charmeleon"
+            },
+            {
+                "num": "006",
+                "name": "Charizard"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa5f"
+        },
+        "name": "Squirtle",
+        "next_evolution": [
+            {
+                "num": "008",
+                "name": "Wartortle"
+            },
+            {
+                "num": "009",
+                "name": "Blastoise"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa62"
+        },
+        "name": "Caterpie",
+        "next_evolution": [
+            {
+                "num": "011",
+                "name": "Metapod"
+            },
+            {
+                "num": "012",
+                "name": "Butterfree"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa65"
+        },
+        "name": "Weedle",
+        "next_evolution": [
+            {
+                "num": "014",
+                "name": "Kakuna"
+            },
+            {
+                "num": "015",
+                "name": "Beedrill"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa68"
+        },
+        "name": "Pidgey",
+        "next_evolution": [
+            {
+                "num": "017",
+                "name": "Pidgeotto"
+            },
+            {
+                "num": "018",
+                "name": "Pidgeot"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa75"
+        },
+        "name": "Nidoran \u00e2\u2122\u20ac (Female)",
+        "next_evolution": [
+            {
+                "num": "030",
+                "name": "Nidorina"
+            },
+            {
+                "num": "031",
+                "name": "Nidoqueen"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa78"
+        },
+        "name": "Nidoran \u00e2\u2122\u201a (Male)",
+        "next_evolution": [
+            {
+                "num": "033",
+                "name": "Nidorino"
+            },
+            {
+                "num": "034",
+                "name": "Nidoking"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa83"
+        },
+        "name": "Oddish",
+        "next_evolution": [
+            {
+                "num": "044",
+                "name": "Gloom"
+            },
+            {
+                "num": "045",
+                "name": "Vileplume"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa94"
+        },
+        "name": "Poliwag",
+        "next_evolution": [
+            {
+                "num": "061",
+                "name": "Poliwhirl"
+            },
+            {
+                "num": "062",
+                "name": "Poliwrath"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa97"
+        },
+        "name": "Abra",
+        "next_evolution": [
+            {
+                "num": "064",
+                "name": "Kadabra"
+            },
+            {
+                "num": "065",
+                "name": "Alakazam"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa9a"
+        },
+        "name": "Machop",
+        "next_evolution": [
+            {
+                "num": "067",
+                "name": "Machoke"
+            },
+            {
+                "num": "068",
+                "name": "Machamp"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa9d"
+        },
+        "name": "Bellsprout",
+        "next_evolution": [
+            {
+                "num": "070",
+                "name": "Weepinbell"
+            },
+            {
+                "num": "071",
+                "name": "Victreebel"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faa2"
+        },
+        "name": "Geodude",
+        "next_evolution": [
+            {
+                "num": "075",
+                "name": "Graveler"
+            },
+            {
+                "num": "076",
+                "name": "Golem"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fab4"
+        },
+        "name": "Gastly",
+        "next_evolution": [
+            {
+                "num": "093",
+                "name": "Haunter"
+            },
+            {
+                "num": "094",
+                "name": "Gengar"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fadd"
+        },
+        "name": "Eevee",
+        "next_evolution": [
+            {
+                "num": "134",
+                "name": "Vaporeon"
+            },
+            {
+                "num": "135",
+                "name": "Jolteon"
+            },
+            {
+                "num": "136",
+                "name": "Flareon"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faeb"
+        },
+        "name": "Dratini",
+        "next_evolution": [
+            {
+                "num": "148",
+                "name": "Dragonair"
+            },
+            {
+                "num": "149",
+                "name": "Dragonite"
+            }
+        ]
+    }
+]

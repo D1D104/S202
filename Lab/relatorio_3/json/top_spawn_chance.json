@@ -1,0 +1,72 @@
+[
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa68"
+        },
+        "name": "Pidgey",
+        "spawn_chance": 15.98
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa6b"
+        },
+        "name": "Rattata",
+        "spawn_chance": 13.05
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa65"
+        },
+        "name": "Weedle",
+        "spawn_chance": 7.12
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa81"
+        },
+        "name": "Zubat",
+        "spawn_chance": 6.52
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fad9"
+        },
+        "name": "Magikarp",
+        "spawn_chance": 4.78
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa6d"
+        },
+        "name": "Spearow",
+        "spawn_chance": 4.73
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fab8"
+        },
+        "name": "Drowzee",
+        "spawn_chance": 3.21
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa62"
+        },
+        "name": "Caterpie",
+        "spawn_chance": 3.032
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fadd"
+        },
+        "name": "Eevee",
+        "spawn_chance": 2.75
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa8e"
+        },
+        "name": "Psyduck",
+        "spawn_chance": 2.54
+    }
+]

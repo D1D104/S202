@@ -1,0 +1,1027 @@
+[
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa59"
+        },
+        "name": "Bulbasaur",
+        "multipliers": [
+            1.58
+        ],
+        "next_evolution": [
+            {
+                "num": "002",
+                "name": "Ivysaur"
+            },
+            {
+                "num": "003",
+                "name": "Venusaur"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa5a"
+        },
+        "name": "Ivysaur",
+        "multipliers": [
+            1.2,
+            1.6
+        ],
+        "next_evolution": [
+            {
+                "num": "003",
+                "name": "Venusaur"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa5c"
+        },
+        "name": "Charmander",
+        "multipliers": [
+            1.65
+        ],
+        "next_evolution": [
+            {
+                "num": "005",
+                "name": "Charmeleon"
+            },
+            {
+                "num": "006",
+                "name": "Charizard"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa5d"
+        },
+        "name": "Charmeleon",
+        "multipliers": [
+            1.79
+        ],
+        "next_evolution": [
+            {
+                "num": "006",
+                "name": "Charizard"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa5f"
+        },
+        "name": "Squirtle",
+        "multipliers": [
+            2.1
+        ],
+        "next_evolution": [
+            {
+                "num": "008",
+                "name": "Wartortle"
+            },
+            {
+                "num": "009",
+                "name": "Blastoise"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa63"
+        },
+        "name": "Metapod",
+        "multipliers": [
+            3.55,
+            3.79
+        ],
+        "next_evolution": [
+            {
+                "num": "012",
+                "name": "Butterfree"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa66"
+        },
+        "name": "Kakuna",
+        "multipliers": [
+            3.01,
+            3.41
+        ],
+        "next_evolution": [
+            {
+                "num": "015",
+                "name": "Beedrill"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa68"
+        },
+        "name": "Pidgey",
+        "multipliers": [
+            1.71,
+            1.92
+        ],
+        "next_evolution": [
+            {
+                "num": "017",
+                "name": "Pidgeotto"
+            },
+            {
+                "num": "018",
+                "name": "Pidgeot"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa69"
+        },
+        "name": "Pidgeotto",
+        "multipliers": [
+            1.79
+        ],
+        "next_evolution": [
+            {
+                "num": "018",
+                "name": "Pidgeot"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa6b"
+        },
+        "name": "Rattata",
+        "multipliers": [
+            2.55,
+            2.73
+        ],
+        "next_evolution": [
+            {
+                "num": "020",
+                "name": "Raticate"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa6d"
+        },
+        "name": "Spearow",
+        "multipliers": [
+            2.66,
+            2.68
+        ],
+        "next_evolution": [
+            {
+                "num": "022",
+                "name": "Fearow"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa6f"
+        },
+        "name": "Ekans",
+        "multipliers": [
+            2.21,
+            2.27
+        ],
+        "next_evolution": [
+            {
+                "num": "024",
+                "name": "Arbok"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa71"
+        },
+        "name": "Pikachu",
+        "multipliers": [
+            2.34
+        ],
+        "next_evolution": [
+            {
+                "num": "026",
+                "name": "Raichu"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa73"
+        },
+        "name": "Sandshrew",
+        "multipliers": [
+            2.45
+        ],
+        "next_evolution": [
+            {
+                "num": "028",
+                "name": "Sandslash"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa75"
+        },
+        "name": "Nidoran \u00e2\u2122\u20ac (Female)",
+        "multipliers": [
+            1.63,
+            2.48
+        ],
+        "next_evolution": [
+            {
+                "num": "030",
+                "name": "Nidorina"
+            },
+            {
+                "num": "031",
+                "name": "Nidoqueen"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa76"
+        },
+        "name": "Nidorina",
+        "multipliers": [
+            1.83,
+            2.48
+        ],
+        "next_evolution": [
+            {
+                "num": "031",
+                "name": "Nidoqueen"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa78"
+        },
+        "name": "Nidoran \u00e2\u2122\u201a (Male)",
+        "multipliers": [
+            1.64,
+            1.7
+        ],
+        "next_evolution": [
+            {
+                "num": "033",
+                "name": "Nidorino"
+            },
+            {
+                "num": "034",
+                "name": "Nidoking"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa79"
+        },
+        "name": "Nidorino",
+        "multipliers": [
+            1.83
+        ],
+        "next_evolution": [
+            {
+                "num": "034",
+                "name": "Nidoking"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa7b"
+        },
+        "name": "Clefairy",
+        "multipliers": [
+            2.03,
+            2.14
+        ],
+        "next_evolution": [
+            {
+                "num": "036",
+                "name": "Clefable"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa7d"
+        },
+        "name": "Vulpix",
+        "multipliers": [
+            2.74,
+            2.81
+        ],
+        "next_evolution": [
+            {
+                "num": "038",
+                "name": "Ninetales"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa7f"
+        },
+        "name": "Jigglypuff",
+        "multipliers": [
+            1.85
+        ],
+        "next_evolution": [
+            {
+                "num": "040",
+                "name": "Wigglytuff"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa81"
+        },
+        "name": "Zubat",
+        "multipliers": [
+            2.6,
+            3.67
+        ],
+        "next_evolution": [
+            {
+                "num": "042",
+                "name": "Golbat"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa86"
+        },
+        "name": "Paras",
+        "multipliers": [
+            2.02
+        ],
+        "next_evolution": [
+            {
+                "num": "047",
+                "name": "Parasect"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa88"
+        },
+        "name": "Venonat",
+        "multipliers": [
+            1.86,
+            1.9
+        ],
+        "next_evolution": [
+            {
+                "num": "049",
+                "name": "Venomoth"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa8a"
+        },
+        "name": "Diglett",
+        "multipliers": [
+            2.69
+        ],
+        "next_evolution": [
+            {
+                "num": "051",
+                "name": "Dugtrio"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa8c"
+        },
+        "name": "Meowth",
+        "multipliers": [
+            1.98
+        ],
+        "next_evolution": [
+            {
+                "num": "053",
+                "name": "Persian"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa8e"
+        },
+        "name": "Psyduck",
+        "multipliers": [
+            2.27
+        ],
+        "next_evolution": [
+            {
+                "num": "055",
+                "name": "Golduck"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa90"
+        },
+        "name": "Mankey",
+        "multipliers": [
+            2.17,
+            2.28
+        ],
+        "next_evolution": [
+            {
+                "num": "057",
+                "name": "Primeape"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa92"
+        },
+        "name": "Growlithe",
+        "multipliers": [
+            2.31,
+            2.36
+        ],
+        "next_evolution": [
+            {
+                "num": "059",
+                "name": "Arcanine"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa94"
+        },
+        "name": "Poliwag",
+        "multipliers": [
+            1.72,
+            1.73
+        ],
+        "next_evolution": [
+            {
+                "num": "061",
+                "name": "Poliwhirl"
+            },
+            {
+                "num": "062",
+                "name": "Poliwrath"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa95"
+        },
+        "name": "Poliwhirl",
+        "multipliers": [
+            1.95
+        ],
+        "next_evolution": [
+            {
+                "num": "062",
+                "name": "Poliwrath"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa97"
+        },
+        "name": "Abra",
+        "multipliers": [
+            1.36,
+            1.95
+        ],
+        "next_evolution": [
+            {
+                "num": "064",
+                "name": "Kadabra"
+            },
+            {
+                "num": "065",
+                "name": "Alakazam"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa9a"
+        },
+        "name": "Machop",
+        "multipliers": [
+            1.64,
+            1.65
+        ],
+        "next_evolution": [
+            {
+                "num": "067",
+                "name": "Machoke"
+            },
+            {
+                "num": "068",
+                "name": "Machamp"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa9b"
+        },
+        "name": "Machoke",
+        "multipliers": [
+            1.7
+        ],
+        "next_evolution": [
+            {
+                "num": "068",
+                "name": "Machamp"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa9d"
+        },
+        "name": "Bellsprout",
+        "multipliers": [
+            1.57
+        ],
+        "next_evolution": [
+            {
+                "num": "070",
+                "name": "Weepinbell"
+            },
+            {
+                "num": "071",
+                "name": "Victreebel"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fa9e"
+        },
+        "name": "Weepinbell",
+        "multipliers": [
+            1.59
+        ],
+        "next_evolution": [
+            {
+                "num": "071",
+                "name": "Victreebel"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faa0"
+        },
+        "name": "Tentacool",
+        "multipliers": [
+            2.52
+        ],
+        "next_evolution": [
+            {
+                "num": "073",
+                "name": "Tentacruel"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faa2"
+        },
+        "name": "Geodude",
+        "multipliers": [
+            1.75,
+            1.76
+        ],
+        "next_evolution": [
+            {
+                "num": "075",
+                "name": "Graveler"
+            },
+            {
+                "num": "076",
+                "name": "Golem"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faa3"
+        },
+        "name": "Graveler",
+        "multipliers": [
+            1.64,
+            1.72
+        ],
+        "next_evolution": [
+            {
+                "num": "076",
+                "name": "Golem"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faa7"
+        },
+        "name": "Slowpoke",
+        "multipliers": [
+            2.21
+        ],
+        "next_evolution": [
+            {
+                "num": "080",
+                "name": "Slowbro"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faa9"
+        },
+        "name": "Magnemite",
+        "multipliers": [
+            2.16,
+            2.17
+        ],
+        "next_evolution": [
+            {
+                "num": "082",
+                "name": "Magneton"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faac"
+        },
+        "name": "Doduo",
+        "multipliers": [
+            2.19,
+            2.24
+        ],
+        "next_evolution": [
+            {
+                "num": "085",
+                "name": "Dodrio"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faae"
+        },
+        "name": "Seel",
+        "multipliers": [
+            1.04,
+            1.96
+        ],
+        "next_evolution": [
+            {
+                "num": "087",
+                "name": "Dewgong"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fab0"
+        },
+        "name": "Grimer",
+        "multipliers": [
+            2.44
+        ],
+        "next_evolution": [
+            {
+                "num": "089",
+                "name": "Muk"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fab2"
+        },
+        "name": "Shellder",
+        "multipliers": [
+            2.65
+        ],
+        "next_evolution": [
+            {
+                "num": "091",
+                "name": "Cloyster"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fab4"
+        },
+        "name": "Gastly",
+        "multipliers": [
+            1.78
+        ],
+        "next_evolution": [
+            {
+                "num": "093",
+                "name": "Haunter"
+            },
+            {
+                "num": "094",
+                "name": "Gengar"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fab5"
+        },
+        "name": "Haunter",
+        "multipliers": [
+            1.56,
+            1.8
+        ],
+        "next_evolution": [
+            {
+                "num": "094",
+                "name": "Gengar"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fab8"
+        },
+        "name": "Drowzee",
+        "multipliers": [
+            2.08,
+            2.09
+        ],
+        "next_evolution": [
+            {
+                "num": "097",
+                "name": "Hypno"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faba"
+        },
+        "name": "Krabby",
+        "multipliers": [
+            2.36,
+            2.4
+        ],
+        "next_evolution": [
+            {
+                "num": "099",
+                "name": "Kingler"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fabc"
+        },
+        "name": "Voltorb",
+        "multipliers": [
+            2.01,
+            2.02
+        ],
+        "next_evolution": [
+            {
+                "num": "101",
+                "name": "Electrode"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fabe"
+        },
+        "name": "Exeggcute",
+        "multipliers": [
+            2.7,
+            3.18
+        ],
+        "next_evolution": [
+            {
+                "num": "103",
+                "name": "Exeggutor"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fac0"
+        },
+        "name": "Cubone",
+        "multipliers": [
+            1.67
+        ],
+        "next_evolution": [
+            {
+                "num": "105",
+                "name": "Marowak"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fac7"
+        },
+        "name": "Rhyhorn",
+        "multipliers": [
+            1.91
+        ],
+        "next_evolution": [
+            {
+                "num": "112",
+                "name": "Rhydon"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9facc"
+        },
+        "name": "Horsea",
+        "multipliers": [
+            2.23
+        ],
+        "next_evolution": [
+            {
+                "num": "117",
+                "name": "Seadra"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9face"
+        },
+        "name": "Goldeen",
+        "multipliers": [
+            2.15,
+            2.2
+        ],
+        "next_evolution": [
+            {
+                "num": "119",
+                "name": "Seaking"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fad0"
+        },
+        "name": "Staryu",
+        "multipliers": [
+            2.38,
+            2.41
+        ],
+        "next_evolution": [
+            {
+                "num": "121",
+                "name": "Starmie"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fad9"
+        },
+        "name": "Magikarp",
+        "multipliers": [
+            10.1,
+            11.8
+        ],
+        "next_evolution": [
+            {
+                "num": "130",
+                "name": "Gyarados"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fadd"
+        },
+        "name": "Eevee",
+        "multipliers": [
+            2.02,
+            2.64
+        ],
+        "next_evolution": [
+            {
+                "num": "134",
+                "name": "Vaporeon"
+            },
+            {
+                "num": "135",
+                "name": "Jolteon"
+            },
+            {
+                "num": "136",
+                "name": "Flareon"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fae2"
+        },
+        "name": "Omanyte",
+        "multipliers": [
+            2.12
+        ],
+        "next_evolution": [
+            {
+                "num": "139",
+                "name": "Omastar"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9fae4"
+        },
+        "name": "Kabuto",
+        "multipliers": [
+            1.97,
+            2.37
+        ],
+        "next_evolution": [
+            {
+                "num": "141",
+                "name": "Kabutops"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faeb"
+        },
+        "name": "Dratini",
+        "multipliers": [
+            1.83,
+            1.84
+        ],
+        "next_evolution": [
+            {
+                "num": "148",
+                "name": "Dragonair"
+            },
+            {
+                "num": "149",
+                "name": "Dragonite"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "68b1e0cdd6b3fa8c49a9faec"
+        },
+        "name": "Dragonair",
+        "multipliers": [
+            2.05
+        ],
+        "next_evolution": [
+            {
+                "num": "149",
+                "name": "Dragonite"
+            }
+        ]
+    }
+]
