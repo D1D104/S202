@@ -1,0 +1,58 @@
+[
+    {
+        "_id": "Cerveja",
+        "quantidade_total": 12
+    },
+    {
+        "_id": "Mortadela",
+        "quantidade_total": 8
+    },
+    {
+        "_id": "Bolacha",
+        "quantidade_total": 6
+    },
+    {
+        "_id": "Banana",
+        "quantidade_total": 4
+    },
+    {
+        "_id": "Laranja",
+        "quantidade_total": 4
+    },
+    {
+        "_id": "Mussarela",
+        "quantidade_total": 4
+    },
+    {
+        "_id": "Refrigerante",
+        "quantidade_total": 4
+    },
+    {
+        "_id": "Macarr\u00e3o",
+        "quantidade_total": 4
+    },
+    {
+        "_id": "Ma\u00e7\u00e3",
+        "quantidade_total": 3
+    },
+    {
+        "_id": "Sabonete",
+        "quantidade_total": 3
+    },
+    {
+        "_id": "Carne",
+        "quantidade_total": 2
+    },
+    {
+        "_id": "Detergente",
+        "quantidade_total": 2
+    },
+    {
+        "_id": "Tomate",
+        "quantidade_total": 2
+    },
+    {
+        "_id": "Feij\u00e3o",
+        "quantidade_total": 2
+    }
+]
