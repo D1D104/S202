@@ -1,0 +1,44 @@
+Q1 -
+
+1- 
+MATCH (n) 
+RETURN n;
+
+2 -
+MATCH (g:Game)
+WHERE g.ano > 2012
+RETURN g;
+
+3 -
+MATCH (g:Game)
+WHERE g.genero = 'Terror'
+RETURN g;
+
+4 -
+MATCH (j:Jurado)-[r:JOGOU]->(g:Game)
+WHERE r.nota >= 7
+RETURN j, g;
+
+
+Q2 -
+
+1 -
+CREATE (g:Game{titulo:'The Witcher 3: Wild Hunt', genero:'RPG', ano:2015}),
+       (g2:Game{titulo:'Minecraft', genero:'Sandbox', ano:2011}),
+       (g3:Game{titulo:'Red Dead Redemption 2', genero:'Ação e Aventura', ano:2018}),
+       (g4:Game{titulo:'God of War', genero:'Ação e Aventura', ano:2018});
+
+2 -
+CREATE (j:Jurado{nome:'Diego'}),
+       (j2:Jurado{nome:'Eduardo'}),
+       (j3:Jurado{nome:'Pedro'});
+
+3 -
+MATCH (j:Jurado{nome:'Diego'}),(g:Game{titulo:'The Witcher 3: Wild Hunt'})
+CREATE (j)-[:JOGOU{nota:9, horas: 150}]->(g);
+
+MATCH (j:Jurado{nome:'Eduardo'}),(g:Game{titulo:'Red Dead Redemption 2'})
+CREATE (j)-[:JOGOU{nota:8, horas: 80}]->(g);
+
+MATCH (j:Jurado{nome:'Pedro'}),(g:Game{titulo:'Dota 2'})
+CREATE (j)-[:JOGOU{nota:7, horas: 50}]->(g);
