@@ -1,0 +1,61 @@
+Agregações:
+
+MATCH (a:Airport)
+RETURN a.city, count(*) AS count
+ORDER BY count DESC
+
+MATCH (a:Airport)
+RETURN avg(a.altitude) AS avgAltitude
+
+MATCH (a:Airport)
+WITH min(a.altitude) AS minAltitude, max(a.altitude) AS maxAltitude
+MATCH (minAirport:Airport {altitude: minAltitude}), (maxAirport:Airport {altitude: maxAltitude})
+RETURN minAirport, maxAirport
+
+MATCH (a:Airport)
+RETURN a.city, sum(a.runways) AS totalRunways
+ORDER BY totalRunways DESC
+
+MATCH (a:Airport)
+WITH min(a.runways) AS minRunways, max(a.runways) AS maxRunways
+MATCH (minRunwaysAirport:Airport {runways: minRunways}), (maxRunwaysAirport:Airport {runways: maxRunways})
+RETURN minRunwaysAirport, maxRunwaysAirport
+
+
+Matemáticas:
+
+MATCH (a:Airport)
+RETURN avg(a.pagerank) AS avgPagerank
+
+MATCH (a:Airport)
+RETURN avg(a.pagerank) AS avgPagerank
+
+MATCH (a:Airport)
+RETURN avg(point.longitude(a.location)) AS avgLongitude
+
+MATCH (a:Airport)
+RETURN sum(a.runways) AS totalRunways
+
+MATCH (a:Airport)
+WITH min(a.pagerank) AS minPagerank, max(a.pagerank) AS maxPagerank
+MATCH (minPagerankAirport:Airport {pagerank: minPagerank}), (maxPagerankAirport:Airport {pagerank: maxPagerank})
+RETURN minPagerankAirport, maxPagerankAirport
+
+
+String:
+MATCH (a:Airport)
+RETURN a.iata
+
+MATCH (a:Airport)
+RETURN upper(a.descr) AS uppercaseDescr
+
+MATCH (a:Airport)
+WHERE toLower(a.city) CONTAINS "international"
+RETURN DISTINCT a.city
+
+MATCH (a:Airport)
+WHERE toLower(a.descr) CONTAINS "international"
+RETURN a
+
+MATCH (a:Airport)
+RETURN a.city + ': ' + a.descr AS cityDescription
