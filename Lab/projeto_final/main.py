@@ -1,13 +1,12 @@
-# main.py
 from pprint import pprint
 from mongo_database import MongoDatabase
 from neo4j_database import Neo4jDatabase
-from dao_mongo import MongoDAO
-from dao_neo4j import Neo4jDAO
+from DAO_mongo import MongoDAO
+from DAO_neo4j import Neo4jDAO
 
 def build_default_connections():
     mongo_db = MongoDatabase(host="localhost", port=27017, database="postsdb", collection="posts")
-    neo4j_db = Neo4jDatabase(uri="bolt://localhost:7687", user="neo4j", password="test")
+    neo4j_db = Neo4jDatabase(uri="bolt://localhost:7687", user="neo4j", password="neo4jneo4j")
     return mongo_db, neo4j_db
 
 def run_cli(mongo_db: MongoDatabase, neo4j_db: Neo4jDatabase):
@@ -37,12 +36,11 @@ Menu:
         print(menu)
         op = input("Escolha: ").strip()
         if op == "1":
-            uid = input("user id: ").strip()
             nome = input("nome: ").strip()
             perfil = input("perfil: ").strip()
-            mongo.create_user_meta({"_id": uid, "nome": nome, "perfil": perfil})
-            neo.merge_user(uid, nome=nome, perfil=perfil)
-            print("Usuário criado.")
+            created_id = mongo.create_user_meta({"nome": nome, "perfil": perfil})
+            neo.merge_user(created_id, nome=nome, perfil=perfil)
+            print(f"Usuário criado. id: {created_id}")
         elif op == "2":
             author = input("author_id: ").strip()
             titulo = input("titulo: ").strip()
