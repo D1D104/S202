@@ -8,6 +8,7 @@ class MongoDAO:
     def __init__(self, posts_col: Collection, users_meta_col: Collection):
         self.posts = posts_col
         self.users_meta = users_meta_col
+        self.counters = self.users_meta.database["counters"]
 
     def create_indexes(self):
         try:
@@ -74,9 +75,25 @@ class MongoDAO:
         return list(self.posts.aggregate(pipeline))
 
     def create_user_meta(self, user_doc: Dict[str, Any]) -> str:
+        if "_id" not in user_doc or user_doc.get("_id") in (None, ""):
+            next_id = self.get_next_sequence("user_id")
+            user_doc["_id"] = str(next_id)
+
         res = self.users_meta.insert_one(user_doc)
         print(f"[MongoDAO] UserMeta criado: {res.inserted_id}")
         return str(res.inserted_id)
+
+    def get_next_sequence(self, name: str) -> int:
+        doc = self.counters.find_one_and_update(
+            {"_id": name},
+            {"$inc": {"seq": 1}},
+            upsert=True,
+            return_document=True
+        )
+        if not doc:
+            self.counters.insert_one({"_id": name, "seq": 1})
+            return 1
+        return int(doc.get("seq", 0))
 
     def get_user_meta(self, user_id: str) -> Optional[Dict[str, Any]]:
         return self.users_meta.find_one({"_id": user_id})
