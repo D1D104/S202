@@ -21,9 +21,18 @@ class MongoDatabase:
             print("[Mongo] Erro ao conectar:", e)
             raise
 
+        self.reset_collection()
+
     def reset_collection(self):
         try:
-            self.db.drop_collection(self.collection)
+            self.db.drop_collection(self.collection.name)
+            self.db.drop_collection("users_meta")
+            self.db.drop_collection("counters")
             print("[Mongo] Collection resetada.")
+            try:
+                self.db["counters"].insert_one({"_id": "user_id", "seq": 0})
+                print("[Mongo] Counters inicializado.")
+            except Exception:
+                pass
         except Exception as e:
             print("[Mongo] Erro ao resetar collection:", e)
